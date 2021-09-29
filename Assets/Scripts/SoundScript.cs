@@ -54,5 +54,10 @@ public class SoundScript : MonoBehaviour
         {
           musicSource.loop = false;
         }
+      
+      if (Input.GetKey("escape"))
+      {
+        Application.Quit();
+      }
    }
 }
